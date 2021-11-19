@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    width: 100%;
+    height: 70vh;
+     background-image:url(https://html-css-comfy-store-js-course.netlify.app/assets/main-bcg.jpeg); 
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    color: white;
+    
+}
+header{
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+section>h2{
+    font-style: italic;
+    font-size: 2rem;
+}
+section>h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-left: 15vw;
+    margin-top: 100px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin-left: 15vw;
+    color: whitesmoke;
+    background-color: transparent;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border:2px solid white;
+}
+section>button:hover{
+    color: rgb(243, 140, 122);
+    background-color: whitesmoke;
+}
+.feature{
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center; 
+    font-weight: lighter;
+}
+.high{
+    width:75vw ;
+    height:auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin: auto;   
+}
+.high>.col>img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.col>h5{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(153, 149, 149);
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.col>p{
+    margin: 0px;
+}
+.feature>button{
+    width: 12vw;
+    height: 7vh;
+    color: white;
+    border: 1px solid black;
+    margin: 30px 0px;
+    font-size: 0.9rem;
+    background-color: rgba(197, 62, 13, 0.959);
+
+    
+}
+.feature>button:hover{
+    background-color: rgb(245, 106, 56);
+    color: white;
+}
+hr{
+    width: 10vw;
+    height: 2px;
+    margin: 40px 5px;
+}
+.feature>section{
+    justify-content: center;
+    
+}
