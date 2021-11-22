@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    list-style: none;
+    color: rgb(27, 27, 27);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+header>section>ul{
+    list-style: none;
+    
+    
+
+}
+header>section>ul>li{
+    margin: 20px;
+}
+.space{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(224, 223, 223);
+    color: black;
+    padding:4vh 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+   
+}
